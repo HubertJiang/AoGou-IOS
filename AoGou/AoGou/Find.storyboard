@@ -38,11 +38,11 @@
             </objects>
             <point key="canvasLocation" x="18" y="677"/>
         </scene>
-        <!--发-->
+        <!--发现-->
         <scene sceneID="RPV-FQ-xNc">
             <objects>
                 <navigationController id="KK9-eS-FZh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="发" id="bNp-X3-aJu"/>
+                    <tabBarItem key="tabBarItem" title="发现" id="bNp-X3-aJu"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ycI-PX-0nM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
