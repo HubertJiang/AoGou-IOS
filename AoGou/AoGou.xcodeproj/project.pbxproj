@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9BB2B7411F1E109600BA5947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2B7401F1E109600BA5947 /* AppDelegate.swift */; };
-		9BB2B7431F1E109600BA5947 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2B7421F1E109600BA5947 /* ViewController.swift */; };
 		9BB2B7461F1E109600BA5947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB2B7441F1E109600BA5947 /* Main.storyboard */; };
 		9BB2B7481F1E109600BA5947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB2B7471F1E109600BA5947 /* Assets.xcassets */; };
 		9BB2B74B1F1E109600BA5947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB2B7491F1E109600BA5947 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		9BB2B73D1F1E109600BA5947 /* AoGou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AoGou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB2B7401F1E109600BA5947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BB2B7421F1E109600BA5947 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BB2B7451F1E109600BA5947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BB2B7471F1E109600BA5947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB2B74A1F1E109600BA5947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				9BB2B7401F1E109600BA5947 /* AppDelegate.swift */,
-				9BB2B7421F1E109600BA5947 /* ViewController.swift */,
 				9BB2B7441F1E109600BA5947 /* Main.storyboard */,
 				9BB2B7471F1E109600BA5947 /* Assets.xcassets */,
 				9BB2B7491F1E109600BA5947 /* LaunchScreen.storyboard */,
@@ -137,7 +134,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB2B7431F1E109600BA5947 /* ViewController.swift in Sources */,
 				9BB2B7411F1E109600BA5947 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +298,7 @@
 				9BB2B7511F1E109600BA5947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
