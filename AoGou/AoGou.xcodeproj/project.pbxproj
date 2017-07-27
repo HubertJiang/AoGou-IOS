@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0DBADD1F29C19C0095910D /* FindTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DBADC1F29C19C0095910D /* FindTableViewController.swift */; };
 		9B18229C1F1F5BAA006930B8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B18229A1F1F5BAA006930B8 /* Home.storyboard */; };
 		9B18229E1F1F5CB2006930B8 /* Find.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B18229D1F1F5CB2006930B8 /* Find.storyboard */; };
 		9B1822A11F1F5DAE006930B8 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B18229F1F1F5DAE006930B8 /* Me.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B0DBADC1F29C19C0095910D /* FindTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTableViewController.swift; sourceTree = "<group>"; };
 		9B18229B1F1F5BAA006930B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		9B18229D1F1F5CB2006930B8 /* Find.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Find.storyboard; sourceTree = "<group>"; };
 		9B1822A01F1F5DAE006930B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Me.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				9BB2B74C1F1E109600BA5947 /* Info.plist */,
 				9B4CCBE61F21F3A60059D20F /* Goods.swift */,
 				9B4CCBE81F21F4420059D20F /* HomeTableViewController.swift */,
+				9B0DBADC1F29C19C0095910D /* FindTableViewController.swift */,
 			);
 			path = AoGou;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0DBADD1F29C19C0095910D /* FindTableViewController.swift in Sources */,
 				9B4CCBE91F21F4420059D20F /* HomeTableViewController.swift in Sources */,
 				9B4CCBE71F21F3A60059D20F /* Goods.swift in Sources */,
 				9BB2B7411F1E109600BA5947 /* AppDelegate.swift in Sources */,
