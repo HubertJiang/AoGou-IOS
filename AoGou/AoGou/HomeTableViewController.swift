@@ -12,7 +12,9 @@ class HomeTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        refreshControl = UIRefreshControl()
+        refreshControl?.attributedTitle = NSAttributedString(string: "加载中")
+        refreshControl?.addTarget(self, action:#selector(HomeTableViewController.refresh), for: .valueChanged)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -20,6 +22,10 @@ class HomeTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
+    func refresh() {
+       NSLog("get")
+        refreshControl?.endRefreshing()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -36,7 +42,7 @@ class HomeTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "home", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "homeCell", for: indexPath)
 
         // Configure the cell...
 
